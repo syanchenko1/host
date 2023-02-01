@@ -58,7 +58,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "Host",
       remotes: {
-        SbarRemote: `SbarRemote@http://localhost:4000/remoteEntry.js`,
+        SbarRemote: `SbarRemote@https://vercel-remote.vercel.app/remoteEntry.js`,
       },
       shared: {
         ...dependencies,
