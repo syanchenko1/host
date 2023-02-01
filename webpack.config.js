@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   output: {
-    publicPath: "auto",
+    path: __dirname + "/build",
   },
   module: {
     rules: [
