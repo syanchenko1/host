@@ -12,6 +12,9 @@ module.exports = {
       "/": "http://188.72.106.23:31000",
     },
   },
+  output: {
+    publicPath: "auto",
+  },
   module: {
     rules: [
       {
