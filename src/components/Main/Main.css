@@ -1,0 +1,26 @@
+.main__content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__sbar {
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e4e8eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.main__sbar:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.main__sbar > a {
+  text-decoration: none;
+}
